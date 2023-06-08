@@ -1,7 +1,7 @@
 # :books: first_word
 :arrow_right: [Subject file](./subject.en.txt) 
-:arrow_right: [Answer here!](./first_word.c)
 
+:arrow_right: [Answer here!](./first_word.c)
 
 ## Explanation
 
