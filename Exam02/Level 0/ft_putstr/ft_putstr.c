@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 12:18:25 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 12:21:41 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/08 19:32:45 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 
 void	ft_putstr(char *str)
 {
-	int	i;
-
-	i = 0;
+	int	i = 0;
 	while (str[i])
 	{
 		write(1, &(str[i]), 1);
