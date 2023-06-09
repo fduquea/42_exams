@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 17:14:49 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 17:31:47 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/09 12:49:36 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,12 @@
 
 int	main(int argc, char **argv)
 {
+	int	k;
+	int	i;
+	int	arr[256] = {0};
+
 	if (argc == 3)
 	{
-		int	arr[256] = {0};
-		int	i = 0;
-		int	k = 0;
 		while (argv[1][i])
 		{
 			while (argv[2][k])

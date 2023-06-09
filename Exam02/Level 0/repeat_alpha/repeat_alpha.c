@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 12:32:13 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 12:50:13 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/09 10:10:07 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	main(int argc, char **argv)
 {
-	int	i;
-	int k;
-	char *str;
+	int		i;
+	int		k;
+	char	*str;
 
 	if (argc == 2)
 	{

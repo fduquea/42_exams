@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 15:26:43 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 15:38:35 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/09 10:25:13 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,17 @@
 
 int	main(int argc, char **argv)
 {
+	char	*s;
+	int		i;
+	int		c;
+
 	if (argc == 2)
 	{
-		char *s = argv[1];
-		int i = 0;
-		int	c;
+		*s = argv[1];
+		i = 0;
 		while (s[i])
 		{
-			if(s[i] >= 'A' && s[i] <= 'Z')
+			if (s[i] >= 'A' && s[i] <= 'Z')
 			{
 				write(1, "_", 1);
 				c = s[i] + 32;

@@ -6,16 +6,19 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 16:37:52 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 16:48:31 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/09 10:27:18 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi(const char *str)
 {
-	int		res = 0;
-	int	i = 0;
-	int sign = 1;
+	int	res;
+	int	i;
+	int	sign;
 
+	res = 0;
+	i = 0;
+	sign = 1;
 	if (str[0] == '-' || str[0] == '+')
 	{
 		if (str[0] == '-')

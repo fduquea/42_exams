@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 17:06:53 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 17:14:21 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/09 10:29:34 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,12 @@
 
 char	*ft_strdup(char *src)
 {
-	int	len = 0;
-	char *dup;
-	int i = 0;
-	
+	int		len;
+	char	*dup;
+	int		i;
+
+	i = 0;
+	len = 0;
 	while (src[len])
 		len++;
 	dup = malloc(sizeof(char) * (len + 1));

@@ -1,44 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcspn.c                                       :+:      :+:    :+:   */
+/*   ft_strrev.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/05 16:55:43 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/09 10:28:52 by fduque-a         ###   ########.fr       */
+/*   Created: 2023/06/09 12:15:32 by fduque-a          #+#    #+#             */
+/*   Updated: 2023/06/09 14:28:42 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-
-size_t	ft_strcspn(const char *s, const char *reject)
+char	*ft_strrev(char *str)
 {
-	size_t	i;
-	size_t	j;
+	char	temp;
+	int		len;
+	int		i;
 
 	i = 0;
-	while (s[i])
+	len = 0;
+	while (str[len])
+		len++;
+	while (i < len / 2)
 	{
-		j = 0;
-		while (reject[j])
-		{
-			if (reject[j] == s[i])
-				return (i);
-			else
-				j++;
-		}
+		temp = str[i];
+		str[i] = str[len - 1 - i];
+		str[len - 1 - i] = temp;
 		i++;
 	}
-	return (i);
+	return (str);
 }
 
 // #include <stdio.h>
-
-// int	main(int argc, char **argv)
+// int main(void)
 // {
-// 	if (argc != 3)
-// 		return (0);
-// 	size_t test = ft_strcspn(argv[1], argv[2]);
-// 	printf("%li\n", test);
+//     char str[] = "Hello, World!";
+//     printf("Original string: %s\n", str);
+//     ft_strrev(str);
+//     printf("Reversed string: %s\n", str);
+//     return 0;
 // }

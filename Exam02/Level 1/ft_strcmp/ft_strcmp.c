@@ -6,13 +6,14 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 16:49:01 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 16:53:26 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/09 10:27:38 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strcmp(char *s1, char *s2)
 {
 	int	i;
+
 	while (s1[i] && s2[i] && s1[i] == s2[i])
 		i++;
 	return (s1[i] - s2[i]);
