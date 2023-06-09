@@ -5,9 +5,18 @@
 
 ## Explanation
 
-This subject requests a function and not a program, therefore we wont send the main function in the 'ft_putstr.c' file.
-Simple exercise, just create a index and print each character while 'str[i]' exists.
-*while (str[i])* == *while (str[i] != '\0')*
+The `ft_putstr` function is designed to display a string on the standard output. Here's a brief overview of the implementation:
+
+1. The program includes the necessary header file `<unistd.h>` for the `write` function.
+2. The function `ft_putstr` is defined with a parameter `char *str`.
+3. Inside the function, an integer variable `i` is initialized to 0.
+4. The function enters a loop that continues until the end of the string is reached (indicated by the null character `'\0'`).
+5. Inside the loop, the function uses the `write` function to write the character at the current index `i` of the string `str` to the standard output.
+6. The function increments `i` to move to the next character in the string.
+7. The loop continues until the end of the string is reached.
+8. The function completes its execution.
+
+The allowed function `write` is used to output characters.
 
 ## Subject
 

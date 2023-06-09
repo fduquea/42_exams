@@ -1,12 +1,21 @@
 # :books: do_op
 :arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer](./do_op.c)
+:arrow_right: [Answer here!](./do_op.c)
 
 ## Explanation
 
-Since the subject allows the use of atoi, it's easy, make the first and third argument an int, and then create if's to check the second argument character, when you know what the second argument character is, you know what operation you need to do.
-Print the result of the operation after.
+The provided code represents a program that performs arithmetic operations on two integers based on the operator specified as the second command-line argument. Here's a brief overview of the implementation:
+
+1. The program checks if there are exactly three command-line arguments passed (excluding the program name).
+2. If there are three arguments, the program proceeds with the arithmetic operation.
+3. The program converts the first and third arguments to integers using the `atoi` function and stores them in `n1` and `n2` variables, respectively.
+4. The result of the operation is stored in the `res` variable, initially set to 0.
+5. Based on the operator specified as the second argument (`argv[2][0]`), the program performs the corresponding arithmetic operation: multiplication (`*`), division (`/`), subtraction (`-`), addition (`+`), or modulo (`%`).
+6. The result is printed using the `printf` function.
+7. Finally, a newline character is printed using the `printf` function.
+
+The allowed functions in the subject are `atoi`, `printf`, and `write`.
 
 ## Subject
 

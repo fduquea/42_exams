@@ -1,11 +1,19 @@
 # :books: ulstr
 :arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer](./ulstr.c)
+:arrow_right: [Answer here!](./ulstr.c)
 
 ## Explanation
 
-Check all the characters of the argument. When it finds a letter. If it's lowercase you move it down 32 positions in the ascii table and print it. If it's uppercase you move it up 32 positions in the ascii table and print it.
+The provided code represents a program that takes a string as a command-line argument and reverses the case of all its letters while leaving other characters unchanged. Here's a brief overview of the implementation:
+
+1. The program checks if there is exactly one command-line argument passed (excluding the program name).
+2. If there is a single argument, the program proceeds with the case reversal operation.
+3. The program iterates through each character in the string `argv[1]`.
+4. If the character is a lowercase letter (`'a'` to `'z'`), it is converted to uppercase by subtracting `32` from its ASCII value.
+5. If the character is an uppercase letter (`'A'` to `'Z'`), it is converted to lowercase by adding `32` to its ASCII value.
+6. The modified character or the original character is printed using the `write` function.
+7. Finally, a newline character is printed using the `write` function.
 
 ## Subject
 

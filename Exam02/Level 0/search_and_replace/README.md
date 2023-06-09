@@ -1,12 +1,21 @@
 # :books: seach_and_replace
 :arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer](./search_and_replace.c)
+:arrow_right: [Answer here!](./search_and_replace.c)
 
 ## Explanation
 
-The subject is strict about the arguments the program recieve, so, first thing we need to do is the if the number of arguments is 3 and if the second and third argument only contains one letter.
-If so, simply create a while loop that gors through the whole string and compares each character to the second argument. Changing the character to the thirg argument when it finds the second in the first.
+The provided code represents a program that takes three command-line arguments: a string, a character to search for, and a character to replace it with. The program performs a search-and-replace operation on the string and displays the modified string. Here's a brief overview of the implementation:
+
+1. The program checks if there are exactly three command-line arguments passed (excluding the program name) and verifies certain conditions:
+   - The second and third arguments are single characters.
+   - The second character argument is a letter (lowercase or uppercase).
+   - The third character argument is a letter (lowercase or uppercase).
+2. If the conditions are met, the program proceeds with the search-and-replace operation.
+3. The program iterates through each character in the string `argv[1]`.
+4. If the character matches the second argument (`argv[2]`), it is replaced with the third argument (`argv[3]`).
+5. The modified character or the original character is printed using the `write` function.
+6. Finally, a newline character is printed using the `write` function.
 
 ## Subject
 

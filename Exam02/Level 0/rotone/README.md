@@ -1,11 +1,21 @@
 # :books: rotone
 :arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer](./rotone.c)
+:arrow_right: [Answer here!](./rotone.c)
 
 ## Explanation
 
-If the current character is a letter and is different than 'z'/'Z', move one position in the ascii table and print it. If it's 'z'/'Z', move down 25 positions in the ascii table and print it.
+The provided code represents a program that takes a command-line argument as a string and applies the ROTone encryption algorithm to each letter in the string. Here's a brief overview of the implementation:
+
+1. The program checks if there is exactly one command-line argument passed (excluding the program name).
+2. If there is a single argument, the program proceeds with the ROTone encryption.
+3. The program iterates through each character in the string `argv[1]`.
+4. For each character, if it is a lowercase or uppercase letter (excluding 'z' and 'Z'), the program increments its ASCII value by 1 to get the next letter in alphabetical order.
+5. If the character is 'z' or 'Z', the program wraps around to 'a' or 'A' by subtracting 25 from its ASCII value.
+6. The encrypted character is then printed using the `write` function.
+7. Finally, a newline character is printed using the `write` function.
+
+Basically, if the current character is a letter and is different than 'z'/'Z', move up one position in the ASCII table and print it. If it's 'z'/'Z', move down 25 positions in the ASCII table and print it.
 
 ## Subject
 

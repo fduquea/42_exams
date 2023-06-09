@@ -5,12 +5,25 @@
 
 ## Explanation
 
-This one is a specific case. Even tough it's a program, the output will always be the same, which means it's not affected by the 'command-line' arguments.
-So, it's a program, therefore our 'fizzbuzz.c' file needs to have a main function, we wont use arguments.
-Our main function will be this:
-``` C
-int main(void)
-```
+The `fizzbuzz` program is a classic programming exercise that prints numbers from 1 to 100, with some variations based on divisibility rules. Here's an overview of the implementation:
+
+1. The program includes the necessary header file `<unistd.h>` for the `write` function.
+2. There's a helper function `print_number` that takes an integer `i` as input and prints it to the standard output using the `write` function. This function handles both single-digit and double-digit numbers.
+3. The main function `main` is defined without any arguments (`int main(void)`).
+4. Inside the main function, an integer variable `i` is initialized to 1.
+5. The program enters a loop that continues while `i` is less than or equal to 100.
+6. Inside the loop, the program checks the divisibility of `i` using the modulo operator (`%`).
+7. If `i` is divisible by both 3 and 5, the program writes the string "fizzbuzz" to the standard output using the `write` function.
+8. If `i` is only divisible by 3, the program writes the string "fizz" to the standard output.
+9. If `i` is only divisible by 5, the program writes the string "buzz" to the standard output.
+10. If none of the above conditions are met, the program calls the `print_number` function to print the value of `i`.
+11. After printing the corresponding value, the program writes a newline character (`\n`) to the standard output using the `write` function.
+12. Finally, the program increments `i` and continues the loop until `i` reaches 101.
+13. The program terminates and returns 0.
+
+The allowed function `write` is used to output characters.
+
+
 How to check if a number is multiple of 3 or 5?
 If the result of 'x % 3' = 0, then x is multiple of 3, because '%' is the rest.
 Example:

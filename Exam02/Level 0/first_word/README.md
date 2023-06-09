@@ -1,17 +1,25 @@
 # :books: first_word
 :arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./first_word.c)
+:arrow_right: [Answer](./first_word.c)
 
 ## Explanation
 
-Since it's a program that takes a string, we are working with 'command-line arguments', which means our main function will look like this:
-```C
-int	main(int argc, char **argv);
-```
-The idea is simple, take argv[1] and print it without spaces/tabs.
-If argv[1] has multiple words in it, then print each character until you find a space/tab.
+The `first_word` program is designed to take a string as input and display its first word, followed by a newline. A word is defined as a section of the string delimited by spaces, tabs, or the start/end of the string.
 
+Here is an overview of the implementation:
+
+1. The program takes command-line arguments `argc` (argument count) and `argv` (argument vector) as input.
+2. It initializes a variable `i` to 0.
+3. If the `argc` is equal to 2 (indicating a single argument provided), the program proceeds.
+4. It skips leading spaces and tabs in the input string by incrementing `i` until a non-space/tab character is encountered.
+5. The program then enters a loop that continues as long as there are characters in the string (`argv[1][i]`) and the current character is not a space or tab.
+6. Within the loop, it writes the current character to the standard output using the `write` function.
+7. It increments `i` to move to the next character in the string.
+8. Once the loop ends, the program writes a newline character to the standard output.
+9. The program terminates and returns 0.
+
+The allowed function `write` is used to output characters.
 
 ## Subject
 

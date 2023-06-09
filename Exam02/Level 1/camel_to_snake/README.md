@@ -1,13 +1,20 @@
 # :books: camel_to_snake
 :arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer](./camel_to_snake.c)
+:arrow_right: [Answer here!](./camel_to_snake.c)
 
 ## Explanation
 
-Disclaimer: This one is weird, the subject allows the use of malloc, free and realloc but honestly it sounds so easy the way it's asked that I don't see where is needed. It also don't mention the number of arguments allowed or if it wants a new line after, but we can see that it wants the newline in the examples, and it also only uses 1 argument, so I also added a check that wants it to only be 1 argument or the program will only display a newline.
+Disclaimer: This one is weird, the subject allows the use of malloc, free and realloc but honestly it looks such an easy subject that I don't see where I would need it. It also doesn't mention the number of arguments allowed or if it wants a new line after, but we can see that it wants the newline in the examples, and it also only uses 1 argument, so I also added a check that wants it to only be 1 argument or the program will only display a newline.
 
-Basically everytime you find a capital letter, you print a '_' and the letter in lowercase.
+The provided code represents a program called `camel_to_snake` that converts a string from lowerCamelCase format to snake_case format. Here's a brief overview of the implementation:
+
+- The program checks if there is exactly one command-line argument passed (excluding the program name).
+- If there is a single argument, the program proceeds with the conversion operation.
+- The program iterates through each character in the string `argv[1]`.
+- If the current character is an uppercase letter (`'A'` to `'Z'`), the program writes an underscore (`'_'`) using the `write` function, followed by the lowercase version of the letter obtained by adding `32` to its ASCII value.
+- If the current character is not an uppercase letter, the program simply writes the character using the `write` function.
+- Finally, a newline character is printed using the `write` function.
 
 ## Subject
 
