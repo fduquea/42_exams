@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 15:35:55 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/07 15:42:17 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 19:35:20 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,22 +14,25 @@
 #include <stdlib.h>
 #include "list.h"
 
-int ascending(int a, int b)
+int	ascending(int a, int b)
 {
 	return (a <= b);
 }
 
-t_list	*sort_list(t_list* lst, int (*cmp)(int, int))
+t_list	*sort_list(t_list *lst, int (*cmp)(int, int))
 {
-	int	tmp = 0;
-	t_list *curr = lst;
+	int		temp;
+	t_list	*curr;
+
+	temp = 0;
+	curr = lst;
 	while (lst->next)
 	{
 		if (cmp(lst->data, lst->next->data) == 0)
 		{
-			tmp = lst->data;
+			temp = lst->data;
 			lst->data = lst->next->data;
-			lst->next->data = tmp;
+			lst->next->data = temp;
 			lst = curr;
 		}
 		else

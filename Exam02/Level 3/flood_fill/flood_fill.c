@@ -6,22 +6,22 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 12:37:59 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/07 14:19:00 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 19:01:18 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-typedef struct  s_point
+typedef struct s_point
 {
-    int           x;
-    int           y;
-} t_point;
+	int	x;
+	int	y;
+}	t_point;
 
-void  fill(char **tab, t_point size, int x, int y, char to_fill)
+void	fill(char **tab, t_point size, int x, int y, char to_fill)
 {
 	if (x < 0 || x >= size.x || y < 0 || y >= size.y)
 		return ;
 	if (tab[y][x] != to_fill)
-		return;
+		return ;
 	tab[y][x] = 'F';
 	fill(tab, size, x - 1, y, to_fill);
 	fill(tab, size, x + 1, y, to_fill);
@@ -29,7 +29,7 @@ void  fill(char **tab, t_point size, int x, int y, char to_fill)
 	fill(tab, size, x, y + 1, to_fill);
 }
 
-void  flood_fill(char **tab, t_point size, t_point begin)
+void	flood_fill(char **tab, t_point size, t_point begin)
 {
 	fill(tab, size, begin.x, begin.y, tab[begin.y][begin.x]);
 }

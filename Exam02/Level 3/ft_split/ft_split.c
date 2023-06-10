@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:51:37 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/07 15:22:18 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 19:12:53 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,19 +15,21 @@
 int	is_space(char c)
 {
 	if (c == ' ' || c == '\t' || c == '\n')
-		return 1;
-	return 0;
+		return (1);
+	return (0);
 }
 
 int	count_words(char *str)
 {
-	int res = 0;
+	int	res;
+
+	res = 0;
 	while (*str)
 	{
 		if (!is_space(*str))
 		{
 			res++;
-			while(!is_space(*str) && *str)
+			while (!is_space(*str) && *str)
 				str++;
 		}
 		else
@@ -36,14 +38,17 @@ int	count_words(char *str)
 	return (res);
 }
 
-char *put_word(char *str)
+char	*put_word(char *str)
 {
-	int i = 0;
+	int		i;
+	char	*res;
+
+	i = 0;
 	while (!is_space(str[i]) && str[i])
 		i++;
-	char *res = (char *)malloc(sizeof(char) * (i + 1));
+	res = (char *)malloc(sizeof(char) * (i + 1));
 	if (!res)
-		return NULL;
+		return (NULL);
 	i = 0;
 	while (str[i] != '\0' && !is_space(str[i]))
 	{
@@ -54,12 +59,15 @@ char *put_word(char *str)
 	return (res);
 }
 
-char **ft_split(char *str)
+char	**ft_split(char *str)
 {
-	char **words = (char **)malloc(sizeof(char *) * (count_words(str) + 1));
+	char	**words;
+	int		i;
+
+	words = (char **)malloc(sizeof(char *) * (count_words(str) + 1));
 	if (!words)
-		return NULL;
-	int i = 0;
+		return (NULL);
+	i = 0;
 	while (*str)
 	{
 		if (!is_space(*str))

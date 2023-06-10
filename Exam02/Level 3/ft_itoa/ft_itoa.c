@@ -6,17 +6,26 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:31:40 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/07 14:50:53 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 19:07:00 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-char *ft_itoa(int nbr)
+char	*ft_itoa(int nbr)
 {
-	int i = 0, len = 0, sign = 0;
-	long cpy = nbr, copy = nbr;
-	char *res;
+	int		i;
+	int		len;
+	int		sign;
+	long	cpy;
+	char	*res;
+	long	copy;
+
+	i = 0;
+	len = 0;
+	sign = 0;
+	cpy = nbr;
+	copy = nbr;
 	if (cpy < 0)
 	{
 		cpy *= -1;
