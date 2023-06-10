@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 23:45:12 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/07 12:18:46 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 18:09:07 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	main(int argc, char **argv)
 					c = ft_toupper(argv[i][j]);
 					write(1, &c, 1);
 				}
-				else 
+				else
 				{
 					c = ft_tolower(argv[i][j]);
 					write(1, &c, 1);

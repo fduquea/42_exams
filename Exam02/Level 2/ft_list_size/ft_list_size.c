@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 15:52:07 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/06 16:02:43 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 18:01:03 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,11 @@ typedef struct s_list
 
 int	ft_list_size(t_list *begin_list)
 {
+	int	i;
+
+	i = 1;
 	if (!begin_list)
 		return (0);
-	int	i = 1;
 	while (begin_list->next)
 	{
 		begin_list = begin_list->next;

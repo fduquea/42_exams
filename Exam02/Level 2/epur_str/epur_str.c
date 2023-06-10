@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 14:02:46 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/06 14:53:29 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 17:59:33 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,15 @@
 
 int	main(int argc, char **argv)
 {
+	char	*str;
+	int		i;
+	int		flag;
+
 	if (argc == 2)
 	{
-		char *str = argv[1];
-		int	i = 0, flag = 0;
+		*str = argv[1];
+		i = 0;
+		flag = 0;
 		while (str[i])
 		{
 			while (str[i] && (str[i] == '\t' || str[i] == ' '))

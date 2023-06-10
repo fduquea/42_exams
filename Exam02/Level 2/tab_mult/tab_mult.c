@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 12:20:20 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/07 12:36:25 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 18:10:19 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,11 @@
 
 int	ft_atoi(char *str)
 {
-	int i = 0, res = 0;
+	int	i;
+	int	res;
+
+	i = 0;
+	res = 0;
 	while (str[i])
 	{
 		res = res * 10 + str[i] - 48;
@@ -23,9 +27,10 @@ int	ft_atoi(char *str)
 	return (res);
 }
 
-void ft_putnbr(int n)
+void	ft_putnbr(int n)
 {
-	char c;
+	char	c;
+
 	if (n > 9)
 		ft_putnbr(n / 10);
 	c = n % 10 + 48;
@@ -34,10 +39,13 @@ void ft_putnbr(int n)
 
 int	main(int argc, char **argv)
 {
+	int	n;
+	int	i;
+
 	if (argc == 2)
 	{
-		int n = ft_atoi(argv[1]);
-		int	i = 1;
+		n = ft_atoi(argv[1]);
+		i = 1;
 		while (i <= 9)
 		{
 			ft_putnbr(i);
