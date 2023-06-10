@@ -6,13 +6,15 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 18:12:24 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 18:25:35 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 17:37:10 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	max(int *tab, unsigned int len)
 {
-	int	res = tab[0];
+	int	res;
+
+	res = tab[0];
 	while (len-- > 0)
 	{
 		if (tab[len] > res)

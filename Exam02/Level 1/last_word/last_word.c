@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 17:47:35 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/05 18:11:56 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 17:41:17 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,11 @@
 
 int	main(int argc, char **argv)
 {
+	int	i;
+
+	i = 0;
 	if (argc == 2)
 	{
-		int	i = 0;
 		while (argv[1][i])
 			i++;
 		i--;
