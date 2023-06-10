@@ -12,7 +12,7 @@
 
 ```
 
-## Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
 - Email: fduque-a@student.42porto.com
 

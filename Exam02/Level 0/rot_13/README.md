@@ -1,9 +1,8 @@
 # :books: rot_13
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./rot_13.c)
+[Subject File](./subject.en.txt) | [Solution File](./rot_13.c)
 
-## Explanation
+## :clipboard: Explanation
 
 
 The provided subject asks for a program that takes a command-line argument as a string and applies the ROT13 encryption algorithm to each letter in the string. Here's a brief overview of the implementation:
@@ -17,7 +16,7 @@ The provided subject asks for a program that takes a command-line argument as a 
 
 Simple, if the current character is in the first half of the alphabet, move up 13 positions in the ASCII table and print it, if it's in the second half of the alphabet, move down 13 positions in the ASCII table and print it.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : rot_13
@@ -51,15 +50,11 @@ $>
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

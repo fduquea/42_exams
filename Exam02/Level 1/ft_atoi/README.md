@@ -1,9 +1,8 @@
 # :books: ft_atoi
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_atoi.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_atoi.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided code represents a function `ft_atoi` that converts a string argument `str` to an integer (type `int`) and returns it. The function follows the behavior of the standard `atoi(const char *str)` function.
 
@@ -26,7 +25,7 @@ res = res * 10 + str[i++] - 48
 This adds a '0' to the end of the number by multiplying by 10 and then adds the current digit.
 Don't forget to check in the beginning for any signal and return the number multiplied by the signal.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_atoi
@@ -45,15 +44,11 @@ int	ft_atoi(const char *str);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

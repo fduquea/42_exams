@@ -1,9 +1,8 @@
 # :books: rotone
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./rotone.c)
+[Subject File](./subject.en.txt) | [Solution File](./rotone.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided subject asks for a program that takes a command-line argument as a string and applies the ROTone encryption algorithm to each letter in the string. Here's a brief overview of the implementation:
 
@@ -17,7 +16,7 @@ The provided subject asks for a program that takes a command-line argument as a 
 
 Basically, if the current character is a letter and is different than 'z'/'Z', move up one position in the ASCII table and print it. If it's 'z'/'Z', move down 25 positions in the ASCII table and print it.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : rotone
@@ -51,15 +50,11 @@ $>
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

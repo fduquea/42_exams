@@ -1,26 +1,22 @@
 # :books: 
-:arrow_right: [Subject file](./subject.en.txt) 
-:arrow_right: [Answer]
 
-## Explanation
+[Subject File](./subject.en.txt) | [Solution File]()
+
+## :clipboard: Explanation
 
 
 
-## Subject
-
-```
+## :pencil: Subject
 
 ```
 
-# Found any issue? Contact me! 📥
+```
 
-◦ Email: fduque-a@student.42porto.com
+## Found any issues? Contact me! 📥
 
-# Might interest you!
+- Email: fduque-a@student.42porto.com
 
-### - Check my 42 common-core progress ↙️
+## Might interest you! :sparkles:
 
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

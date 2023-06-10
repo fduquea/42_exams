@@ -1,9 +1,8 @@
 # :books: rev_print
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./rev_print.c)
+[Subject File](./subject.en.txt) | [Solution File](./rev_print.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided subject asks for a program that takes a command-line argument as a string and prints the string in reverse order, followed by a newline character. Here's a brief overview of the implementation:
 
@@ -16,7 +15,7 @@ The provided subject asks for a program that takes a command-line argument as a 
 
 The only allowed function in the subject is `write`.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : rev_print
@@ -40,15 +39,11 @@ $
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

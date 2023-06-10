@@ -1,9 +1,8 @@
 # :books: print_bits
-:arrow_right: [Subject File](./subject.en.txt)
 
-:arrow_right: [Solution File](print_bits.c)
+[Subject File](./subject.en.txt) | [Solution File](print_bits.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `print_bits` function takes a byte as input and prints its binary representation without a newline at the end. Here's a brief overview of the implementation:
 
@@ -16,7 +15,7 @@ The `print_bits` function takes a byte as input and prints its binary representa
 
 The function uses the `write` function from the `unistd.h` header to output the binary representation.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : print_bits
@@ -34,15 +33,11 @@ void	print_bits(unsigned char octet);
 Example, if you pass 2 to print_bits, it will print "00000010"
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

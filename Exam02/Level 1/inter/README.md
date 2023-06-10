@@ -1,9 +1,8 @@
 # :books: inter
-:arrow_right: [Subject file](./subject.en.txt)
 
-:arrow_right: [Answer here!](./inter.c)
+[Subject File](./subject.en.txt) | [Solution File](./inter.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `inter` program is designed to compare two strings and display the characters that appear in both strings, without any duplicates. The characters are displayed in the order they appear in the first string.
 
@@ -23,7 +22,7 @@ Here is an overview of the implementation:
 Ensure that only the `write` function is used, and no additional functions beyond the allowed ones are used.
 
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : inter
@@ -52,15 +51,11 @@ $
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

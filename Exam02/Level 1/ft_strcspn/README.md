@@ -1,9 +1,8 @@
 # :books: ft_strcspn
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_strcspn.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strcspn.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided code represents a function `ft_strcspn` that reproduces the behavior of the standard `strcspn` function. It calculates the length of the initial segment of a string `s` that does not contain any characters from a set of characters `reject`.
 
@@ -20,7 +19,7 @@ Here's a brief overview of the implementation:
 
 The function `ft_strcspn` is declared as `size_t ft_strcspn(const char *s, const char *reject)`, where `const char *s` represents the string to search in and `const char *reject` represents the set of characters to reject.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name	: ft_strcspn
@@ -36,15 +35,11 @@ The function should be prototyped as follows:
 size_t	ft_strcspn(const char *s, const char *reject);
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

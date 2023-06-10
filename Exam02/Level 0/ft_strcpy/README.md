@@ -1,9 +1,8 @@
 # :books: ft_strcpy
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_strcpy.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strcpy.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `ft_strcpy` function is designed to replicate the behavior of the `strcpy` function, which copies a string from `s2` to `s1`. Here's a brief overview of the implementation:
 
@@ -16,7 +15,7 @@ The `ft_strcpy` function is designed to replicate the behavior of the `strcpy` f
 7. After the loop, the null character `'\0'` is appended to the end of the destination string `s1`, indicating the end of the copied string.
 8. The function returns the destination string `s1`.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_strcpy
@@ -32,15 +31,11 @@ char    *ft_strcpy(char *s1, char *s2);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

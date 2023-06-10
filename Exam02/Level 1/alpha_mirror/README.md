@@ -1,9 +1,8 @@
 # :books: alpha_mirror
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./alpha_mirror.c)
+[Subject File](./subject.en.txt) | [Solution File](./alpha_mirror.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided subject asks for a a program called `alpha_mirror` that takes a string as a command-line argument and replaces each alphabetical character with its opposite alphabetical character while leaving other characters unchanged. The opposite alphabetical character is determined based on its position in the ASCII table. Here's a brief overview of the implementation:
 
@@ -26,7 +25,7 @@ But 'a' isn't 1, and 'z' isn't 26, 'a' is 97 and 'z' is 122, so we need to make 
 We do the same to the capital letters and our 'something' becomes 155.
 ('man ascii' exists and is helpful! Mess around with it)
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : alpha_mirror
@@ -59,15 +58,11 @@ $>
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issue? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

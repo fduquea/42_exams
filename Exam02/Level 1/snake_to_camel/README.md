@@ -15,7 +15,7 @@ The `snake_to_camel` program takes a single string in snake_case format and conv
 
 The program uses the `write` function from the `unistd.h` header to display the converted string.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : snake_to_camel
@@ -42,11 +42,11 @@ $
 
 ```
 
-## Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
 - Email: fduque-a@student.42porto.com
 
-## Might interest you!
+## Might interest you! :sparkles:
 
-- Check my [42 common-core progress](https://github.com/fduquea/42cursus)
-- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

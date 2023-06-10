@@ -1,9 +1,8 @@
 # :books: repeat_alpha
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./repeat_alpha.c)
+[Subject File](./subject.en.txt) | [Solution File](./repeat_alpha.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided subject asks for a program that takes a command-line argument as a string and prints each alphabetical character in the string repeated based on its alphabetical index. Here's a brief overview of the implementation:
 
@@ -22,7 +21,7 @@ We basically need to make a variable that saves the index as 'a' being 1, 'b' be
 How can we make 'a' = 1, 'b' = 2, etc?
 On the ASCII table, 'a' is 97, 'b' is 98, etc... so if we recognize the letter and take 96 out of it, for 'a' we get '97 - 96 = 1', for 'b' we get '98 - 96 = 2'... very simple, same for uppercase letters, simply change 96 to 64 ('A' is 65).
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : repeat_alpha
@@ -57,15 +56,11 @@ $>
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

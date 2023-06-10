@@ -1,9 +1,8 @@
 # :books: max
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](max.c)
+[Subject File](./subject.en.txt) | [Solution File](max.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided code represents a function named `max` that finds the largest number in an array of integers.
 
@@ -18,7 +17,7 @@ Here's a brief overview of the implementation:
 
 The function does not require any additional functions or headers.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : max
@@ -39,15 +38,11 @@ If the array is empty, the function returns 0.
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

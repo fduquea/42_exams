@@ -1,9 +1,8 @@
 # :books: ft_strspn
-:arrow_right: [Subject file](./subject.en.txt)
 
-:arrow_right: [Answer here!](./ft_strspn.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strspn.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `ft_strspn` function is designed to replicate the behavior of the standard library function `strspn` as described in the manual page `man strspn`. It calculates the length of the initial segment of a string `s` that consists entirely of characters from another string `accept`.
 
@@ -44,7 +43,7 @@ size_t ft_strspn(const char *s, const char *accept)
 
 Ensure that no additional functions beyond the allowed ones are used and include the necessary header files for the function prototype.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name	: ft_strspn
@@ -62,15 +61,11 @@ size_t	ft_strspn(const char *s, const char *accept);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

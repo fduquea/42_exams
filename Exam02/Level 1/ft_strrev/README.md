@@ -1,9 +1,8 @@
 # :books: ft_strrev
-:arrow_right: [Subject file](./subject.en.txt)
 
-:arrow_right: [Answer here!](./ft_strrev.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strrev.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `ft_strrev` function is designed to reverse a string in-place. It takes a string `str` as input, modifies the string by reversing its characters, and returns a pointer to the reversed string.
 
@@ -41,7 +40,7 @@ char *ft_strrev(char *str)
 }
 ```
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_strrev
@@ -59,15 +58,11 @@ char    *ft_strrev(char *str);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

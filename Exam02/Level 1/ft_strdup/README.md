@@ -1,9 +1,8 @@
 # :books: ft_strdup
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_strdup.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strdup.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided code represents a function `ft_strdup` that reproduces the behavior of the standard `strdup` function. It duplicates a string `src` by allocating memory for a new string, copying the contents of `src` into the new string, and returning a pointer to the new string.
 
@@ -20,7 +19,7 @@ The function `ft_strdup` is declared as `char *ft_strdup(char *src)`, where `cha
 
 ! Don't forget to allocate memory for the '\0' character. !
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_strdup
@@ -36,15 +35,11 @@ char    *ft_strdup(char *src);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

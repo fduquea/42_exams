@@ -1,9 +1,8 @@
 # :books: is_power_of_2
-:arrow_right: [Subject file](./subject.en.txt)
 
-:arrow_right: [Answer here!](./is_power_of_2.c)
+[Subject File](./subject.en.txt) | [Solution File](./is_power_of_2.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `is_power_of_2` function is designed to determine whether a given number is a power of 2. It returns 1 if the number is a power of 2 and 0 otherwise.
 
@@ -17,7 +16,7 @@ Here is an overview of the implementation:
 6. The loop continues until `n` becomes 0 or a condition for returning 1 or 0 is met.
 7. If the loop completes without returning, the function returns 0 to indicate that the given number is not a power of 2.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : is_power_of_2
@@ -35,15 +34,11 @@ int	    is_power_of_2(unsigned int n);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

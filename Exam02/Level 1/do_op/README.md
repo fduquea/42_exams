@@ -1,9 +1,8 @@
 # :books: do_op
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./do_op.c)
+[Subject File](./subject.en.txt) | [Solution File](./do_op.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided subject asks for a program that performs arithmetic operations on two integers based on the operator specified as the second command-line argument. Here's a brief overview of the implementation:
 
@@ -17,7 +16,7 @@ The provided subject asks for a program that performs arithmetic operations on t
 
 The allowed functions in the subject are `atoi`, `printf`, and `write`.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : do_op
@@ -51,15 +50,11 @@ $
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

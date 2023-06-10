@@ -1,9 +1,8 @@
 # :books: ft_strlen
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_strlen.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strlen.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `ft_strlen` function is designed to return the length of a string. Here's a brief overview of the implementation:
 
@@ -14,7 +13,7 @@ The `ft_strlen` function is designed to return the length of a string. Here's a 
 5. The loop continues until the null character `'\0'` is encountered.
 6. After the loop, the function returns the value of `i`, which represents the length of the string.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_strlen
@@ -30,15 +29,11 @@ int	ft_strlen(char *str);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

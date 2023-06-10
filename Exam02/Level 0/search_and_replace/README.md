@@ -1,9 +1,8 @@
 # :books: seach_and_replace
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./search_and_replace.c)
+[Subject File](./subject.en.txt) | [Solution File](./search_and_replace.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided subject asks for a program that takes three command-line arguments: a string, a character to search for, and a character to replace it with. The program performs a search-and-replace operation on the string and displays the modified string. Here's a brief overview of the implementation:
 
@@ -17,7 +16,7 @@ The provided subject asks for a program that takes three command-line arguments:
 5. The modified character or the original character is printed using the `write` function.
 6. Finally, a newline character is printed using the `write` function.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : search_and_replace
@@ -50,15 +49,11 @@ eNcOre Un ExEmPle Pas Facile a Ecrire $
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

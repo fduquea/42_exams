@@ -1,9 +1,8 @@
 # :books: camel_to_snake
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./camel_to_snake.c)
+[Subject File](./subject.en.txt) | [Solution File](./camel_to_snake.c)
 
-## Explanation
+## :clipboard: Explanation
 
 Disclaimer: This one is weird, the subject allows the use of malloc, free and realloc but honestly it looks such an easy subject that I don't see where I would need it. It also doesn't mention the number of arguments allowed or if it wants a new line after, but we can see that it wants the newline in the examples, and it also only uses 1 argument, so I also added a check that wants it to only be 1 argument or the program will only display a newline.
 
@@ -16,7 +15,7 @@ The provided subject asks for a program called `camel_to_snake` that converts a 
 - If the current character is not an uppercase letter, the program simply writes the character using the `write` function.
 - Finally, a newline character is printed using the `write` function.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : camel_to_snake
@@ -43,15 +42,11 @@ $
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issue? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

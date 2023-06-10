@@ -1,9 +1,8 @@
 # :books: first_word
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./first_word.c)
+[Subject File](./subject.en.txt) | [Solution File](./first_word.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `first_word` program is designed to take a string as input and display its first word, followed by a newline. A word is defined as a section of the string delimited by spaces, tabs, or the start/end of the string.
 
@@ -21,7 +20,7 @@ Here is an overview of the implementation:
 
 The allowed function `write` is used to output characters.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : first_word
@@ -53,15 +52,11 @@ lorem,ipsum$
 $>
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

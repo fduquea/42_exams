@@ -1,9 +1,8 @@
 # :books: ft_strpbrk
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_strpbrk.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strpbrk.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The ft_strpbrk function is designed to replicate the behavior of the standard library function strpbrk as described in the manual page man strpbrk. It searches a string s1 for any character that matches a character in the string s2 and returns a pointer to the first occurrence of such character.
 
@@ -23,7 +22,7 @@ Here is an overview of the implementation:
 
 Make sure to include the necessary header file stddef.h for the function prototype.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name	: ft_strpbrk
@@ -40,15 +39,11 @@ char	*ft_strpbrk(const char *s1, const char *s2);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

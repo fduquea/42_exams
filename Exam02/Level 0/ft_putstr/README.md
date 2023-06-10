@@ -1,9 +1,8 @@
 # :books: ft_putstr
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_putstr.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_putstr.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `ft_putstr` function is designed to display a string on the standard output. Here's a brief overview of the implementation:
 
@@ -18,7 +17,7 @@ The `ft_putstr` function is designed to display a string on the standard output.
 
 The allowed function `write` is used to output characters.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_putstr
@@ -37,15 +36,11 @@ void	ft_putstr(char *str);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

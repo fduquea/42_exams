@@ -1,9 +1,8 @@
 # :books: fizzbuzz
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](fizzbuzz.c)
+[Subject File](./subject.en.txt) | [Solution File](fizzbuzz.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The `fizzbuzz` program is a classic programming exercise that prints numbers from 1 to 100, with some variations based on divisibility rules. Here's an overview of the implementation:
 
@@ -31,7 +30,7 @@ Example:
 '9 % 5' = 4, how many times does 5 fit inside 9? 1. 1 * 5 = 5. 9 - 5 = 4;
 5 is not a multiple of 9 and 3 is a multiple of 9, so when the number is 9 it should print "fizz".
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : fizzbuzz
@@ -75,15 +74,11 @@ $>
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:

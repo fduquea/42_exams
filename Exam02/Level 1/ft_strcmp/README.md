@@ -1,9 +1,8 @@
 # :books: ft_strcmp
-:arrow_right: [Subject file](./subject.en.txt) 
 
-:arrow_right: [Answer here!](./ft_strcmp.c)
+[Subject File](./subject.en.txt) | [Solution File](./ft_strcmp.c)
 
-## Explanation
+## :clipboard: Explanation
 
 The provided code represents a function `ft_strcmp` that reproduces the behavior of the standard `strcmp` function. It compares two strings `s1` and `s2` and returns an integer value based on their lexicographical order.
 
@@ -21,7 +20,7 @@ The function `ft_strcmp` is declared as `int ft_strcmp(char *s1, char *s2)`, whe
 
 TL:DR: compare the characters of both strings until one is different or one string reaches the end, then return the difference of the first string to the second, returning '> 0' if the first string is bigger, '0' if they are the same, and '< 0' if the first string is smaller.
 
-## Subject
+## :pencil: Subject
 
 ```
 Assignment name  : ft_strcmp
@@ -37,15 +36,11 @@ int    ft_strcmp(char *s1, char *s2);
 
 ```
 
-# Found any issue? Contact me! 📥
+## Found any issues? Contact me! 📥
 
-◦ Email: fduque-a@student.42porto.com
+- Email: fduque-a@student.42porto.com
 
-# Might interest you!
+## Might interest you! :sparkles:
 
-### - Check my 42 common-core progress ↙️
-
-[HERE](https://github.com/fduquea/42cursus)
-
-### - My 42 intra profile ↙️
-[HERE](https://profile.intra.42.fr/users/fduque-a)
+- Check my [42 common-core progress](https://github.com/fduquea/42cursus) :chart_with_upwards_trend:
+- My [42 intra profile](https://profile.intra.42.fr/users/fduque-a) :bust_in_silhouette:
