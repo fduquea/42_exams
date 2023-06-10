@@ -6,7 +6,7 @@
 /*   By: fduque-a <fduque-a@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 23:04:01 by fduque-a          #+#    #+#             */
-/*   Updated: 2023/06/10 18:04:13 by fduque-a         ###   ########.fr       */
+/*   Updated: 2023/06/10 18:49:08 by fduque-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ unsigned int	lcm(unsigned int a, unsigned int b)
 		n = a;
 	else
 		n = b;
-	while (n > 0)
+	while (1)
 	{
 		if ((n % a == 0) && (n % b == 0))
 			return (n);
