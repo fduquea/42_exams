@@ -1,7 +1,7 @@
 # :books: ft_strrev
 :arrow_right: [Subject file](./subject.en.txt)
 
-:arrow_right: [Answer](./ft_strrev.c)
+:arrow_right: [Answer here!](./ft_strrev.c)
 
 ## Explanation
 

@@ -7,7 +7,7 @@
 
 Disclaimer: This one is weird, the subject allows the use of malloc, free and realloc but honestly it looks such an easy subject that I don't see where I would need it. It also doesn't mention the number of arguments allowed or if it wants a new line after, but we can see that it wants the newline in the examples, and it also only uses 1 argument, so I also added a check that wants it to only be 1 argument or the program will only display a newline.
 
-The provided code represents a program called `camel_to_snake` that converts a string from lowerCamelCase format to snake_case format. Here's a brief overview of the implementation:
+The provided subject asks for a program called `camel_to_snake` that converts a string from lowerCamelCase format to snake_case format. Here's a brief overview of the implementation:
 
 - The program checks if there is exactly one command-line argument passed (excluding the program name).
 - If there is a single argument, the program proceeds with the conversion operation.

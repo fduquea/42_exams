@@ -5,7 +5,7 @@
 
 ## Explanation
 
-The provided code represents a program called `alpha_mirror` that takes a string as a command-line argument and replaces each alphabetical character with its opposite alphabetical character while leaving other characters unchanged. The opposite alphabetical character is determined based on its position in the ASCII table. Here's a brief overview of the implementation:
+The provided subject asks for a a program called `alpha_mirror` that takes a string as a command-line argument and replaces each alphabetical character with its opposite alphabetical character while leaving other characters unchanged. The opposite alphabetical character is determined based on its position in the ASCII table. Here's a brief overview of the implementation:
 
 1. The program checks if there is exactly one command-line argument passed (excluding the program name).
 2. If there is a single argument, the program proceeds with the character replacement operation.

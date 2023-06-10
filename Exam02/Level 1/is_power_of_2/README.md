@@ -1,7 +1,7 @@
 # :books: is_power_of_2
 :arrow_right: [Subject file](./subject.en.txt)
 
-:arrow_right: [Answer](./is_power_of_2.c)
+:arrow_right: [Answer here!](./is_power_of_2.c)
 
 ## Explanation
 

@@ -5,7 +5,7 @@
 
 ## Explanation
 
-The provided code represents a program that takes three command-line arguments: a string, a character to search for, and a character to replace it with. The program performs a search-and-replace operation on the string and displays the modified string. Here's a brief overview of the implementation:
+The provided subject asks for a program that takes three command-line arguments: a string, a character to search for, and a character to replace it with. The program performs a search-and-replace operation on the string and displays the modified string. Here's a brief overview of the implementation:
 
 1. The program checks if there are exactly three command-line arguments passed (excluding the program name) and verifies certain conditions:
    - The second and third arguments are single characters.

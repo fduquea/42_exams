@@ -5,7 +5,7 @@
 
 ## Explanation
 
-The provided code represents a program that takes a command-line argument as a string and prints the string in reverse order, followed by a newline character. Here's a brief overview of the implementation:
+The provided subject asks for a program that takes a command-line argument as a string and prints the string in reverse order, followed by a newline character. Here's a brief overview of the implementation:
 
 1. The program checks if there is exactly one command-line argument passed (excluding the program name).
 2. If there is a single argument, the program proceeds with the reverse printing operation.

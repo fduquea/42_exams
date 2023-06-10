@@ -5,7 +5,7 @@
 
 ## Explanation
 
-The provided code represents a program that performs arithmetic operations on two integers based on the operator specified as the second command-line argument. Here's a brief overview of the implementation:
+The provided subject asks for a program that performs arithmetic operations on two integers based on the operator specified as the second command-line argument. Here's a brief overview of the implementation:
 
 1. The program checks if there are exactly three command-line arguments passed (excluding the program name).
 2. If there are three arguments, the program proceeds with the arithmetic operation.
