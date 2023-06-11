@@ -4,9 +4,11 @@
 - Always try to make your code short, but never too short to the point where it gets hard to understand it.
 - There is no norminette in the exam.
 - Still... follow the norminette! We are taught that way for a reason! (Rules are meant to be broken, though)
-> Yes, it sounds stupid, why not use 'for'? I believe that we are normally not allowed to use stuff like 'for, do, switch, case, goto' for a reason, and we are not supposed to learn something new for the exam. I'm not against having a 50-line function or a declaration and assignment of a variable in the same line though as long as the code is readable, you still should try to make a 50-line function into 2 25-line functions, no norminette means 100+ functions per file!
+> Yes, it sounds stupid, why not use 'for'? I believe that we are normally not allowed to use stuff like 'for, do, switch, case, goto' for a reason, and we are not supposed to learn something new for the exam. I'm not against having a 50-line function or a declaration and assignment of a variable in the same line as long as the code is readable, though. You still should try to make a 50-line function into 2 25-line functions, no norminette means 100+ functions per file!
 - You should always try to make your code short, but never too short to the point where it gets hard to understand it.
+> A lot of my solutions could have been smaller at the loss of readability, which I don't think is worth it.
 - Always test your programs and create mains to test your functions, it's not a waste of time.
+- "You didn't respect the norminette in x and y! Are you bipolar?" As I mentioned, I generally like to respect the norminette, but there are situations where doing something forbiddensaves a lot of time, good examples of that are [Exam Rank 02's](./Exam%20Rank%2002/) [inter](./Exam%20Rank%2002/Level%201/inter/) and [union](./Exam%20Rank%2002/Level%201/union/) where declaring and assigning the value 0 to each integer of a 256 int array in a single line is very handy.
 
 # Exam Login Details
 :one: Login With The Following:
