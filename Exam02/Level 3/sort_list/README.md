@@ -1,6 +1,6 @@
 # :books: sort_list
 
-[Subject File](./subject.en.txt) | [Solution File](sort_list.c) | [List Header](./list.h)
+[Subject File](./subject.en.txt) | [Solution File](sort_list.c) | [Header](./list.h)
 
 ## :clipboard: Explanation
 
