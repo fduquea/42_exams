@@ -1,4 +1,4 @@
-# 📚 Exam Rank 02
+# 📚 Exam Rank 02 [![fduque-a's 42 push_swap Score](https://badge42.vercel.app/api/v2/cli4i2e8c001108jt19bvwefz/project/3125610)](https://github.com/JaeSeoKim/badge42)
 
 - This exam has 4 questions. A random question is picked from each level.
 - If you fail the exam, when you retake the exam next time, you will need to start again from a [Level 0](./Level%200) question.
